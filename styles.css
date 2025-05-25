@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
@@ -33,6 +33,7 @@ body {
   color: #16213e;
   font-size: 3.5em; /* much larger heading */
   font-weight: bold;
+  font-family: "Rubik", Arial, sans-serif;
 }
 
 .hero p {
@@ -78,6 +79,7 @@ body {
   color: #0f3460;
   font-size: 2em; /* make h2 stand out */
   font-weight: bold;
+  font-family: "Rubik", Arial, sans-serif;
 }
 
 .how-it-works ol {
@@ -112,6 +114,7 @@ strong {
   color: #1a1a2e;
   font-size: 2em; /* make h2 stand out */
   font-weight: bold;
+  font-family: "Rubik", Arial, sans-serif;
 }
 
 .features ul {
