@@ -12,12 +12,17 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background-color: #eaf6ff; /* soft light blue background */
+  background-color: #eaf6ff; /* fallback color */
+  background: linear-gradient(
+    to bottom,
+    #b39ddb 0%,
+    #ffffff 100%
+  ); /* soft purple gradient top to bottom */
   padding: 40px 20px;
 }
 
 .hero img {
-  width: 300px;
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -26,7 +31,7 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
-  font-size: 2.5em; /* larger and more prominent */
+  font-size: 3.5em; /* much larger heading */
   font-weight: bold;
 }
 
@@ -42,8 +47,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-size: 1.2em; /* larger button text */
-  padding: 16px 36px; /* larger button size */
+  font-size: 1.1em; /* much larger button text */
+  padding: 22px 48px; /* larger button size */
 }
 
 .hero button:hover {
