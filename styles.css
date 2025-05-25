@@ -6,15 +6,18 @@ body {
   background-color: #ffffff;
   color: #333;
   line-height: 1.6;
+  font-size: 18px; /* slightly larger base font size for clarity */
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
   background-color: #eaf6ff; /* soft light blue background */
+  padding: 40px 20px;
 }
 
 .hero img {
+  width: 300px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,23 +26,28 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 2.5em; /* larger and more prominent */
+  font-weight: bold;
 }
 
 .hero p {
   margin: 10px 0 20px;
   color: #555;
+  font-size: 1.25em; /* slightly larger for readability */
 }
 
 .hero button {
-  background-color: #533483; 
+  background-color: #533483;
   color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  font-size: 1.2em; /* larger button text */
+  padding: 16px 36px; /* larger button size */
 }
 
 .hero button:hover {
-  background-color: #362056; 
+  background-color: #362056;
 }
 
 /* Product Description Section */
@@ -49,6 +57,7 @@ body {
   background-color: #ffffff;
   margin: 40px auto;
   max-width: 800px;
+  font-size: 1.2em; /* slightly larger for readability */
 }
 
 /* How It Works Section */
@@ -61,7 +70,9 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 2em; /* make h2 stand out */
+  font-weight: bold;
 }
 
 .how-it-works ol {
@@ -94,6 +105,8 @@ strong {
 .features h2 {
   margin-bottom: 20px;
   color: #1a1a2e;
+  font-size: 2em; /* make h2 stand out */
+  font-weight: bold;
 }
 
 .features ul {
